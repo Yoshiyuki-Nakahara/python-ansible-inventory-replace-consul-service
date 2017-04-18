@@ -5,10 +5,9 @@ from ansible_dynamic_inventory import AnsibleDynamicInventory
 
 
 def _get_version():
+    a = 0
     version_txt_path = os.path.abspath(os.path.dirname(__file__)) + '/__version__.txt'
     return open(version_txt_path).read().splitlines()[0]
-
-
 def _parse_program_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--version', action='version', version=_get_version())
