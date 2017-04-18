@@ -1,10 +1,10 @@
 import os
-import argparse
-import json
+import argparse, json
 from ansible_dynamic_inventory import AnsibleDynamicInventory
 
 
 def _get_version():
+    a = 0
     version_txt_path = os.path.abspath(os.path.dirname(__file__)) + '/__version__.txt'
     return open(version_txt_path).read().splitlines()[0]
 
