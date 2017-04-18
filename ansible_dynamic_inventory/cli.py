@@ -1,5 +1,6 @@
 import os
-import argparse, json
+import argparse
+import json
 from ansible_dynamic_inventory import AnsibleDynamicInventory
 
 
