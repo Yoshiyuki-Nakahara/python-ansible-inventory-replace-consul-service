@@ -39,8 +39,7 @@ setup(
     long_description=long_description,
 
     # The project's main homepage.
-    url='https://github.com/Yoshiyuki-Nakahara \
-         /python-ansible-dynamic-inventory',
+    url='https://github.com/Yoshiyuki-Nakahara/python-ansible-dynamic-inventory',
 
     # Author details
     author='Yoshiyuki-Nakahara',
